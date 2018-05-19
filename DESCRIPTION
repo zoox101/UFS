@@ -1,0 +1,13 @@
+Package: UFS
+Title: Unsupervised Feature Selection via Greedy Variance Maximization
+Version: 0.0.0.9000
+Authors@R: person("William", "Booker", email = "william@thebookers.net", role = c("aut", "cre"))
+Description: This package performs unsupervised feature selection via Greedy Variance Maximization (GVM). That is, it selects the most important input features without knowing anything about the output space. While ostensibly similar to Principle Component Analysis, GVM has the advantage of actually reducing the dimensionality of the real data -- potentially improving interpretability and simplifying data collection. 
+Depends: R (>= 3.4.0)
+License: GNU GPLv3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
